@@ -1,35 +1,23 @@
 /*CONFIGURAÇÕES GERAIS*/
-*{
+* {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*PAGINA HOME*/
-/*BODY HOME*/
-#bodyHome {
-    height: 100wh;
-    width: 100vw;
-    background-color: gray;
-    background: url("/img/eu.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 /*BARRA*/
-
 #barra {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 20%;
+    height: 15vh;
     float: left;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 25px;
 }
 
 .logo {
     float: left;
     color: #FFFAFA;
-    padding: 10px;
     font-size: 24px;
-    margin: 35px;
 }
 
 .nameLogo {
@@ -39,15 +27,13 @@
 #opcoes {
     float: right;
     color: #FFFAFA;
-    padding: 10px;
     font-size: 24px;
-    margin: 35px;
 }
 
 div a {
     text-decoration: none;
     color: #FFFAFA;
-    margin: 15px;
+    margin-right: 15px;
     font-weight: bold;
 }
 
@@ -55,23 +41,110 @@ div a:hover {
     color: black;
 }
 
-/*CONTEUDO HOME*/
-#welcome {
-    height: 75%;
-    width: 100vw;
+.formatText{
+    color: aqua;
 }
 
+/*PAGINA HOME*/
+/*HOME*/
+#home {
+    height: 100wh;
+    width: 100vw;
+    background-color: black;
+    background-image: url("/img/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
 
+#welcome {
+    height: 85vh;
+    width: 100vw;
+    
+}
 
 #btnInicial {
+    margin-top: 400px;
+    margin-right: 50px;
     width: 200px;
+    float: right;
+    background-color: aqua;
+    
 }
 
-#conteudo {
-    margin: 10px;
-    float: left;
+
+
+/* PAGINA SOBRE*/
+#sobre {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("/img/sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    color: #FFFAFA;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 15px;
+    color: white;
+}
+
+.contSobre{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: "Courier New";
+
+}
+
+#pSobre{
+    text-align: justify;
+    
+}
+
+/*PAGINA MEU TRABALHO*/
+#trabalho {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("/img/sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.colTrab1{
+    float: left;
+    width: 50%;
+}
+.colTrab2{
+    float: right;
+    width: 50%;
+}
+
+#pTrab{
+    width: 80%;
+}
+
+/*PAGINA CONTATO*/
+#contato {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("/img/sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.formulario {
+    margin-left: 30px;
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+#infoContact{
+    width: 50%;
+    float: right;
+    text-align: center;
 }

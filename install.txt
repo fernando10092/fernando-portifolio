@@ -1,0 +1,9 @@
+//Comandos Basicos Padroes
+npm init
+npm install express
+
+//Comandos para o Sequelize / Banco de Dados MYSQL
+npm install --save sequelize
+npm install --save mysql2
+
+(Iniciar MYSQL >> serviços > mysql80 > iniciar)

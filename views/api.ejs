@@ -1,0 +1,53 @@
+<!-- BARRA COMPARTILHADA -->
+<%- include('./partials/barra') %>
+
+
+    <body>
+
+
+        <div class="formCep">
+
+            <form id="formCep" method="post" action="/api">
+
+                <input type="text" name="inputCep">
+                <button type="submit">Enviar</button>
+
+
+            </form>
+
+
+
+
+            <div>
+                <input type="text" name="painel" id="visor" readonly="false">
+            </div>
+
+            <div id="test">
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <script>
+
+            console.log("Entrei no Scripit da Pagina");
+
+            document.getElementById("visor").value = "<%- local.logradouro %>"
+
+        
+        </script>
+
+
+
+    </body>
+
+
+
+
+
+    </html>
