@@ -5,12 +5,12 @@
 
 /*BARRA*/
 #barra {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(110, 203, 239, 0.4);
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     float: left;
     padding-left: 25px;
-    padding-top: 30px;
+    padding-top: 13px;
     padding-right: 25px;
 }
 
@@ -38,7 +38,8 @@ div a {
 }
 
 div a:hover {
-    color: black;
+    color: aqua;
+    text-decoration: none;
 }
 
 .formatText{
@@ -66,9 +67,10 @@ div a:hover {
 #btnInicial {
     margin-top: 400px;
     margin-right: 50px;
-    width: 200px;
+    width: 20%;
+    height: 10%;
     float: right;
-    background-color: aqua;
+    background-color: rgba(110, 203, 239, 0.4);
     
 }
 
@@ -103,9 +105,8 @@ div a:hover {
 #trabalho {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-    background-image: url("/img/sobre.png");
-    background-repeat: no-repeat;
+    background-color: #FFFAFA;
+    padding-top: 5%;
     background-size: cover;
     text-align: center;
     color: white;
@@ -118,16 +119,28 @@ div a:hover {
 .colTrab2{
     float: right;
     width: 50%;
+    color: black;
 }
 
-#pTrab{
-    width: 80%;
+#aTextTrab{
+    color: black;
 }
+
+#carouselExampleIndicators{
+    margin: 25px;
+    width: 90%;
+    height: 60%;
+}
+#txtTrab{
+    color: black;
+}
+
 
 /*PAGINA CONTATO*/
 #contato {
     width: 100vw;
     height: 100vh;
+    padding: 5%;
     background-color: black;
     background-image: url("/img/sobre.png");
     background-repeat: no-repeat;
@@ -137,14 +150,26 @@ div a:hover {
 }
 
 .formulario {
-    margin-left: 30px;
+    margin-left: 10%;
     text-align: center;
     width: 30%;
     float: left;
+}
+
+#btnSendMsg{
+    background-color: rgba(110, 203, 239, 0.4);
+    width: 30%;
+    height: 7%;
 }
 
 #infoContact{
     width: 50%;
     float: right;
     text-align: center;
+}
+
+.iconControl{
+    background-color: #FFFAFA;
+    width: 35px;
+    height: 35px;
 }
