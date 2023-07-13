@@ -4,6 +4,7 @@
 }
 
 /*BARRA*/
+
 #barra {
     background-color: rgba(110, 203, 239, 0.4);
     width: 100%;
@@ -49,7 +50,7 @@ div a:hover {
 /*PAGINA HOME*/
 /*HOME*/
 #home {
-    height: 100wh;
+    min-height: 100wh;
     width: 100vw;
     background-color: black;
     background-image: url("/img/home.png");
@@ -79,7 +80,7 @@ div a:hover {
 /* PAGINA SOBRE*/
 #sobre {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
     background-image: url("/img/sobre.png");
     background-repeat: no-repeat;
@@ -139,7 +140,7 @@ div a:hover {
 /*PAGINA CONTATO*/
 #contato {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 5%;
     background-color: black;
     background-image: url("/img/sobre.png");

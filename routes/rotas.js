@@ -21,15 +21,6 @@ router.post("", controle.cadastrar);
 //ENVIO DE SMS
 router.get("/sms", controle.sms);
 
-//ENVIO DE E-MAIL
-router.get("/email", controle.email);
-
-//MERCADO PAGO
-router.get("/mercadopago", controle.mercadopago);
-
-//MERCADO PAGO POST
-router.post("/mercadopago", controle.mercadopagoPost);
-
 //TESTE
 router.get("/teste", controle.teste);
 

@@ -87,24 +87,7 @@ const app = {
     sms: (req, res) => {
         const sms = require("../Twilio/sms");
     },
-
-    email: (req, res) => {
-        const email = require("../Twilio/sms");
-
-    },
-
-    mercadopago: (req, res) => {
-        res.render("mercadoPago");
-
-    },
-
-    mercadopagoPost: (req, res) => {
-
-
-
-        res.render("mercadoPago");
-
-    },
+  
 
     teste: async (req, res) => {
 
