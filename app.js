@@ -21,6 +21,7 @@ app.use(express.static('public'));
 
 //Variável da Porta
 var porta = 3333;
+const port = process.env.PORT || 3000
 
 //Para conseguir usar as paginas em ejs
 app.set("view engine", "ejs")
@@ -29,5 +30,5 @@ app.set("view engine", "ejs")
 app.use("/", rotas);
 
 //Servidor rodando
-app.listen(porta, ()=> console.log("Servidor rodando na porta: "+porta));
+app.listen(port, ()=> console.log("Servidor rodando na porta: "+porta));
 
