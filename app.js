@@ -30,5 +30,5 @@ app.set("view engine", "ejs")
 app.use("/", rotas);
 
 //Servidor rodando
-app.listen(port, ()=> console.log("Servidor rodando na porta: "+porta));
+app.listen(port, ()=> console.log("Servidor rodando na porta: "+port));
 
