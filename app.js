@@ -21,7 +21,7 @@ app.use(express.static('public'));
 
 //Variável da Porta
 //var porta = 3333;
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3333
 
 //Para conseguir usar as paginas em ejs
 app.set("view engine", "ejs")
