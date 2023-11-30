@@ -101,12 +101,41 @@ const app = {
 
         });
 
-    
-
 
         //res.render("mysqlRetorno", {init: retornoMysql()});
-      
 
+
+    },
+
+    EnviarEmail: (req, res)=>{
+
+
+        var {nome, email, telefone, msg} = req.body;
+
+        console.log("ASSUNTO "+ nome);
+    
+        //LER ARQUIVO PYTHON
+        // VARIÁVEIS
+        const { exec } = require('child_process');
+
+        // CAMINHO DO ARQUIVO PYTHON
+        const caminhoParaArquivoPython = 'python/EnvioEmail.py';
+
+        //JUNTANDO COMANDOS EM VARIAVEIS
+        //const comandoPython = `python ${caminhoParaArquivoPython}`;
+        const comandoPython = `python ${caminhoParaArquivoPython} ${nome} ${email} ${telefone} ${msg}`;
+
+        // Executar o comando Python
+        exec(comandoPython, (erro, stdout, stderr) => {
+        if (erro) {
+            console.error(`Erro ao executar o Python: ${erro}`);
+            return;
+        }
+        console.log(`Saída do Python: ${stdout}`);
+        console.error(`Erros do Python: ${stderr}`);
+        });
+
+    
 
     }
 

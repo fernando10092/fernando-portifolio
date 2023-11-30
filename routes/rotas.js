@@ -24,6 +24,9 @@ router.get("/sms", controle.sms);
 //TESTE
 router.get("/teste", controle.teste);
 
+//EMAIL
+router.post("/contato", controle.EnviarEmail);
+
 
 //Exportando metodo Router
 module.exports = router;
