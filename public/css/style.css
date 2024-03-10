@@ -176,6 +176,9 @@ div a:hover {
     height: 35px;
 }
 
+
+
+
 /* Estilos para dispositivos com largura menor que 768 pixels */
 @media screen and (max-width: 768px) {
     #btnInicial {
