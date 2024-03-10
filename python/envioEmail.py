@@ -40,7 +40,7 @@ assuntoParametro = assParam
 
 
 configuration = sib_api_v3_sdk.Configuration()
-configuration.api_key['api-key'] = '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'
+configuration.api_key['api-key'] = 'XXXXXXXXXXXXx'
 
 api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
 subject = assunto
